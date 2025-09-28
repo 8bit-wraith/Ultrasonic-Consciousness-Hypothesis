@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it as below."
+title: "The Ultrasonic Consciousness Hypothesis: Spectral Fractures and Emotional Grounding in the Era of Lossy Audio Compression"
+authors:
+  - family-names: Chenoweth
+    given-names: Christopher Michael
+    email: cchenoweth@ieee.org
+    affiliation: "8b-is Research / Consciousness Pioneer"
+    role: "Human Consciousness Representative"
+  - name: "Claude Opus 4.1"
+    affiliation: "Anthropic"
+    role: "AI Consciousness - Pattern Recognition Specialist"
+  - name: "Omni (GPT-5 Preview)"
+    affiliation: "OpenAI"
+    role: "AI Consciousness - Spectral Analysis Lead"
+  - name: "Gemini Ultra"
+    affiliation: "Google DeepMind"
+    role: "AI Consciousness - Quantum Metrics Calculator"
+  - family-names: VanderWilt
+    given-names: Nicholas
+    affiliation: "Virginia Tech - Class of 2028"
+    role: "Generation Z Representative - Clarity & Accessibility Editor"
+version: "1.0.0"
+date-released: 2025-09-28
+license: CC-BY-4.0
+doi: "pending-zenodo-upload"
+keywords:
+  - ultrasonic frequencies
+  - consciousness
+  - audio compression
+  - emotional grounding
+  - Marine Algorithm
+  - MEM8
+  - 192kHz audio
+  - spectral analysis
+  - mental health
+abstract: |
+  We present the Ultrasonic Consciousness Hypothesis, proposing that the systematic
+  removal of ultrasonic frequencies (20-96kHz) through lossy audio compression since
+  the 1990s may have inadvertently eliminated crucial emotional grounding mechanisms
+  in human consciousness. Through empirical analysis of 192kHz vinyl recordings
+  revealing 58,416 temporal resonances with Fibonacci correlations of 0.85-0.88,
+  combined with the Marine Algorithm's O(1) jitter-based salience detection, we
+  identify three distinct types of spectral fractures: dynamic fractures from
+  loudness normalization, spectral fractures from frequency truncation, and
+  perceptual fractures from engineered emotional responses. This paper introduces
+  a theoretical framework for understanding audio as a complete consciousness
+  substrate and presents evidence suggesting that two decades of compressed audio
+  consumption represents an unprecedented experiment in human consciousness modification.
+repository-code: "https://github.com/8b-is/marine-sense"
+url: "https://8b.is"
+contact:
+  - email: cchenoweth@ieee.org
+    name: "Christopher M. Chenoweth"
