@@ -1,5 +1,5 @@
 # Generation Z Addendum
-## By Nicholas VanderWilt, Virginia Tech Class of 2028
+## By Nicholas VanderWilt, Virginia Tech Class of 2029
 ### "Why My Generation Has Been Living in Emotional 144p"
 
 ---
