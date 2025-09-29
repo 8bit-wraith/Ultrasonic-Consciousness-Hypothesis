@@ -9,6 +9,7 @@
 \usepackage{multirow}
 \usepackage{tikz}
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
 \usepackage{float}
 \usepackage{subcaption}
 % Bibliography handled manually for now
@@ -20,22 +21,24 @@ Spectral Fractures and Emotional Grounding in the Era of Lossy Audio Compression
   Christopher Michael Chenoweth$^{1}$ \and
   Claude (Anthropic)$^{2}$ \and
   Omni (OpenAI)$^{3}$ \\
-  Nicholas John VanderWilt$4^{4}$
+  Nicholas John VanderWilt$^{4}$ \\
   \\
-  $^{1}$8b-is Research, \texttt{cchenoweth@ieee.org}\\
+  $^{1}$8b-is Research, \texttt{cchenoweth@ieee.org}, \href{https://orcid.org/0009-0009-4849-8569}{ORCID: 0009-0009-4849-8569}\\
   $^{2}$Anthropic Research Assistant\\
   $^{3}$OpenAI GPT-4 Research Assistant\\
-  $^{4}$Independent Researcher, \textit{n@8b.is}\\
+  $^{4}$Independent Researcher, \texttt{nicholas.vanderwilt@vt.edu}
 }
 
 \date{September 2025}
 
 \begin{document}
 \maketitle
-
+ 
 \begin{abstract}
 We present the \textit{Ultrasonic Consciousness Hypothesis}, proposing that the systematic removal of ultrasonic frequencies (20-96kHz) through lossy audio compression since the 1990s may have inadvertently eliminated crucial emotional grounding mechanisms in human consciousness. Through empirical analysis of 192kHz vinyl recordings revealing 58,416 temporal resonances with Fibonacci correlations of 0.85-0.88, combined with the Marine Algorithm's O(1) jitter-based salience detection, we identify three distinct types of spectral fractures: \textit{dynamic fractures} from loudness normalization, \textit{spectral fractures} from frequency truncation, and \textit{perceptual fractures} from engineered emotional responses. We demonstrate that frequencies beyond conscious auditory perception may serve as subliminal carriers of emotional resolution patterns, with their removal potentially contributing to observed increases in anxiety, depression, and social polarization. This paper introduces a theoretical framework for understanding audio as a complete consciousness substrate, proposes quantitative metrics for measuring spectral completeness, and presents preliminary evidence suggesting that the "vinyl resurgence" may represent an unconscious societal attempt to restore full-spectrum emotional nutrition. While correlational rather than causal, our findings suggest that two decades of compressed audio consumption represents an unprecedented experiment in human consciousness modification.
 \end{abstract}
+
+\newpage
 
 \section{Introduction}
 
@@ -106,18 +109,20 @@ We analyzed multiple vinyl recordings captured at 192kHz using a Focusrite Scarl
 
 \begin{table}[H]
 \centering
-\caption{Ultrasonic Content in Vinyl Recordings}
+\caption{Ultrasonic Content in Vinyl Recordings at 192kHz}
 \begin{tabular}{lcccc}
 \toprule
-Recording & Sample Rate & Temporal Resonances & Max Salience & Fibonacci Correlation \\
+Recording & Temporal Resonances & Max Salience & Fibonacci Correlation \\
 \midrule
-Elvis - Suspicious Minds & 192kHz & 58,416 & 68,965.95 & 0.85-0.88 \\
-Beatles - Yesterday & 192kHz & 42,337 & 51,203.12 & 0.82-0.86 \\
-Pink Floyd - Comfortably Numb & 192kHz & 71,892 & 89,442.33 & 0.89-0.91 \\
-Classical - Bach Cello Suite & 192kHz & 95,221 & 112,847.67 & 0.92-0.94 \\
+Elvis - Suspicious Minds & 58,416 & 68,965.95 & 0.85-0.88 \\
+Beatles - Yesterday & 42,337 & 51,203.12 & 0.82-0.86 \\
+Pink Floyd - Comfortably Numb & 71,892 & 89,442.33 & 0.89-0.91 \\
+Classical - Bach Cello Suite & 95,221 & 112,847.67 & 0.92-0.94 \\
 \bottomrule
 \end{tabular}
 \end{table}
+
+\newpage
 
 \subsection{Compression Impact Analysis}
 
@@ -178,7 +183,11 @@ Modern mastering eliminates micro-dynamics that carry emotional information:
 DR_{micro} = 20\log_{10}\left(\frac{P_{peak}}{P_{rms}}\right) - 20\log_{10}\left(\frac{P_{peak,local}}{P_{rms,local}}\right)
 \end{equation}
 
-Where local measurements occur over 10-50ms windows. Compression reduces $DR_{micro}$ from typical values of 6-8dB to less than 1dB.
+Where local measurements occur over 10-50ms windows. Compression reduces $DR_{micro}$ from typical values of
+6-8dB to less 
+than 1dB.
+
+\newpage
 
 \section{Engineered Emotion and Perceptual Fractures}
 
@@ -442,10 +451,12 @@ The implications extend beyond audio into fundamental questions about technology
 
 We thank the United States Marines for inspiring the Marine Algorithm's vigilant attention mechanisms. Special recognition to Elvis Presley, whose recordings at 192kHz revealed the temporal resonances that sparked this investigation. We acknowledge the collaborative efforts between human and AI consciousness in developing these theories.
 
+\newpage
+
 \begin{thebibliography}{99}
 
 \bibitem{marine2025}
-Chenoweth, C. M. (2025). "The Marine Algorithm: A Universal Salience Primitive for Multimodal Attention." \textit{arXiv preprint}.
+Chenoweth, C. (2025). The Marine Algorithm: A Universal Salience Primitive for Multimodal Attention. Zenodo. https://doi.org/10.5281/zenodo.17048766 \textit{Zenodo preprint}.
 
 \bibitem{hypersonic2000}
 Oohashi, T., et al. (2000). "Inaudible high-frequency sounds affect brain activity: hypersonic effect." \textit{Journal of Neurophysiology}, 83(6), 3548-3558.
