@@ -18,6 +18,10 @@ We frame modern audio compression (MP3, AAC, streaming codecs) as creating **mic
 - The Hypersonic Effect (Oohashi et al.) shows brain responses to inaudible ultrasonics.
 - Emotional perception studies show MP3 compression weakens positive affect and blunts prosody in speech.
 
+## Audio
+
+[audio podcast](https://github.com/8bit-wraith/Ultrasonic-Consciousness-Hypothesis/raw/edc613abfd5c3893d34ab1ec061257a84d022795/Ultrasonic%20Consciousness,%20Mechanosensitive%20Channels,%20and%20the%20Silent%20Stress%20of%20Digital%20Audio.flac])
+
 ## ⚡ Quickstart
 ### Requirements
 - FFmpeg
